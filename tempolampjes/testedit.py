@@ -45,7 +45,7 @@ def flash(strip, color, num_flashes=3, flash_duration=0.5):
         strip.show()
         time.sleep(flash_duration)
 
-def colorWipe3(strip, color, wait_ms=50, num_repeats=10):
+def colorWipe3(strip, color, wait_ms=10, num_repeats=10):
     """Wipe color across the LED strip with a group of three LEDs at a time."""
     
     # Flash all LEDs three times
